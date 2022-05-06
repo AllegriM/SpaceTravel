@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../js/data.js" defer></script>
+  <script src="../js/hamburguer.js" defer></script>
+  <script src="../js/planetCreator.js" defer></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body class="destBody body">
+  <header class="header_section">
+    <nav class="navBar">
+      <ul class="flex-nav">
+        <div class="flex-left">
+          <a class="flex-left_icon" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"><g fill="none" fill-rule="evenodd"><circle cx="24" cy="24" r="24" fill="#FFF"/><path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z"/></g></svg>
+          </a>
+        </div>
+        <div class="burguers">
+          <div class="burguerContainer">
+            <a class="burguerOpen" data-collapse="false"></a>
+          </div>
+        </div>
+        <nav class="rightList" data-visible="false">
+          <div class="rightItems">
+            <a href="../index.html" class="rightList_Items active"><span class="numberItems">00</span>Home</a>
+            <a href="destination-moon.html" class="rightList_Items"><span class="numberItems">01</span>Destination</a>
+            <a href="crew-pilot.html" class="rightList_Items"><span class="numberItems">02</span>Crew</a>
+            <a href="technology-spaceport.html" class="rightList_Items"><span class="numberItems">03</span>Technology</a>
+          </div>
+        </nav>
+      </ul>
+    </nav>
+  </header>
+  <main class="planet-main">
+    <h3 class="numbered-title"><span>01</span>Pick your destination</h3>
+    <div class="planet-container">
+      <div class="planet-top">
+        <img class="planet-img" src="../assets/destination/image-moon.png" alt="">
+      </div>
+      <div class="planet-bot">
+        <ul class="destination-planets">
+          <a href="#" class="planet">Moon</a>
+          <a href="#" class="planet">Mars</a>
+          <a href="#" class="planet">Europa</a>
+          <a href="#" class="planet">Titan</a>
+        </ul>
+        <div class="info-desc">
+          <h1 class="main_title">Moon</h1>
+          <p class="main_desc underline">See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+            regain perspective and come back refreshed. While you’re there, take in some history 
+            by visiting the Luna 2 and Apollo 11 landing sites.</p>
+        </div>
+        <div class="info-number">
+          <div class="distance">
+            <p class="dist_title">Avg. distance</p>
+            <p class="dist_number">384,400 km</p>
+            
+          </div>
+          <div class="travel-time">
+            <p class="dist_title">Est. travel time</p>
+            <p class="dist_number">3 days</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
